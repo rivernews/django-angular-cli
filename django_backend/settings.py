@@ -130,3 +130,6 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') # collectstatic will put the collected static files in STATIC_ROOT
+
+import django_heroku
+django_heroku.settings(locals())

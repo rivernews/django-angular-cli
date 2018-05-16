@@ -1,2 +1,5 @@
 django<2
 django-cors-headers
+
+gunicorn
+django-heroku
