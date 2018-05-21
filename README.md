@@ -93,7 +93,7 @@ We'll mainly use [this tutorial](http://www.1strategy.com/blog/2017/05/23/tutori
   - get a decent database GUI client. DBeaver is OK. Can try [PgAdmin](https://www.pgadmin.org/).
     - test the connection. just hardcode the credentials obtained from the RDS console.
 - **TODO: Domain name - it's ugly now. how to change it?**
-- future TODO: [separate front/back end on different platform](https://stackoverflow.com/questions/41247687/how-to-deploy-separated-frontend-and-backend)
+- future: [separate front/back end on different platform](https://stackoverflow.com/questions/41247687/how-to-deploy-separated-frontend-and-backend)
   - Frontend: GitHub Pages + CloudFlare
   - Backend: beanstalk
   - Cross domain setting: jwt
@@ -103,7 +103,7 @@ We'll mainly use [this tutorial](http://www.1strategy.com/blog/2017/05/23/tutori
 - How does Angular deal with different page & always-existing sticky nav bar?
   - can use iriversland basic layout (nav, etc) for testing.
   
-### TODO: DJANGO RESTFUL API TEST POST | GET
+### DJANGO RESTFUL API TEST POST | GET
 
 - For testing RESTful purpose, setup new repo to push to
   - git remote set-url origin git@bitbucket.org:iriver/iriversland2.git
