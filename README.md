@@ -75,8 +75,8 @@ We'll mainly use [this tutorial](http://www.1strategy.com/blog/2017/05/23/tutori
   - make sure you change Django's collectstatic output folder to be under www: `STATIC_ROOT = os.path.join(BASE_DIR, "www", "static")`
   - if you use `django_heroku.settings(locals())` for deploying to heroku, make sure to only running that on heorku by surrounding it with `elif 'DATABASE_URL' in os.environ:`. `django_heroku` will change collectstatic output to `project_root/staticfiles`, which will cause problems for eb to access static files.
 - git add, git commit, then `eb create --scale 1 -db -db.engine postgres -db.i db.t2.micro`
-  - or you can add existing db later and just do ``. See how to [add existing db to a deployment](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.db.html?icmpid=docs_elasticbeanstalk_console). 
-  - see details of the prompts in tutorial.
+  - or you can add existing db later and just do `eb create --scale 1`. See how to [add existing db to a deployment](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.managing.db.html?icmpid=docs_elasticbeanstalk_console). 
+  - see details of the prompts in tutorial. 
   
 *this will start deploying to eb for the very first time.*
 
