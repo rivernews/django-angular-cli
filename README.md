@@ -127,7 +127,7 @@ We'll mainly use [this tutorial](http://www.1strategy.com/blog/2017/05/23/tutori
   - Create view or viewset fetching model and the serializer
   - Setup url routing
 - Test in server!
-- TODO: see how we can use it, to do CRUD operations. Use [this tutorial](https://www.techiediaries.com/tutorial-django-rest-framework-building-products-manager-api/) to figure out the RESTful class view by looking at their functional programming alternatives. 
+- TODO: see how we can use it, to do CRUD operations. [Try this first](https://wsvincent.com/django-rest-framework-tutorial/) to implement CRUD. To learn more about RESTful class views, use [this tutorial](https://www.techiediaries.com/tutorial-django-rest-framework-building-products-manager-api/) to figure out the RESTful class view by looking at their functional programming alternatives. 
 - TODO: Setup security: require login or certain user to access API.
 - **TODO: Angular try to request a POST, see if no error**
 - Try to reset the Django project to a cleaner file tree. Try adding a dot at the end when creating django project, this makes file tree very clean! Recreate django --> copy codes --> try deploy to eb.
